@@ -21,19 +21,88 @@ jobs:
         setup-command: ''
         command: javac ArrayStack.java && java ArrayStack
         input: |-
+          2
+          1
+          1
+          1
+          2
+          1
           3
+          1
+          4
+          1
+          5
+          1
+          6
           4
         expected-output: |-
           1.Push
           2.Pop
           3.Display Stack
           4.Exit
+
           Enter your choice:
-          Stack is Underflow. No elements to display in Empty Stack
+          Stack is Underflow. No elements to be popped in Empty Stack
+
           1.Push
           2.Pop
           3.Display Stack
           4.Exit
+
+          Enter your choice:
+          Enter the element to insert:
+          Element is inserted
+
+          1.Push
+          2.Pop
+          3.Display Stack
+          4.Exit
+
+          Enter your choice:
+          Enter the element to insert:
+          Element is inserted
+
+          1.Push
+          2.Pop
+          3.Display Stack
+          4.Exit
+
+          Enter your choice:
+          Enter the element to insert:
+          Element is inserted
+
+          1.Push
+          2.Pop
+          3.Display Stack
+          4.Exit
+
+          Enter your choice:
+          Enter the element to insert:
+          Element is inserted
+
+          1.Push
+          2.Pop
+          3.Display Stack
+          4.Exit
+
+          Enter your choice:
+          Enter the element to insert:
+          Element is inserted
+
+          1.Push
+          2.Pop
+          3.Display Stack
+          4.Exit
+
+          Enter your choice:
+          Enter the element to insert:
+          Stack is Overflow. Not possible to insert in Full stack
+
+          1.Push
+          2.Pop
+          3.Display Stack
+          4.Exit
+
           Enter your choice:
         comparison-method: exact
         timeout: 10
